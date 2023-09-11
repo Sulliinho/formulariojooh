@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #212121; 
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 10px;
+    display: inline-block; 
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(42, 42, 42);
+    left: 34%;
+    color: aliceblue;
+    align-items: center;
+}
+
+label {
+    width: 90%;
+    left: 34%;
+    color: aliceblue;
+
+}
+label>::placeholder{
+    color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+input {
+    width: 98%;
+    padding: 10px;
+    color: aliceblue;
+}
+
+input>::placeholder{
+    color: aliceblue;
+}
+
+select {
+    width: 99.35%;
+    color: aliceblue;
+}
+
+.botas{
+    width: 100%;
+    align-items: center;
+}
