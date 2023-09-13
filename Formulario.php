@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="cadastro">
+    <form action="cadastro.php" method="$_GET">
         <div class="row">
             <h2>Cadastro</h2>
             <fieldset>
                 <legend>informações pessoais</legend>
-                    <label for="Nome"><input type="text" name="pao" placeholder="Nome"></label>
-                    <label for="email"><input type="email" name="pao2" placeholder="Email"></label>  
+                    <label for="Nome"><input type="text" name="nome" placeholder="Nome"></label>
+                    <label for="email"><input type="email" name="email" placeholder="Email"></label>  
             </fieldset>
             <fieldset>
                 <legend>empresa</legend>
             <label for="Empresa">
-                <input type="text" name="pao3" placeholder="Empresa">
+                <input type="text" name="empresa" placeholder="Empresa">
             </label>
-            <label for="cargo" name="pao4">
-                <select name="opcoes">
-                    <option value="valor1">Adm</option>
-                    <option value="valor2">Rh</option>
-                    <option value="valor4">Npc</option>
-                    <option value="valor3">Outro</option>
+            <br><br>
+            <label for="cargo" name="cargo">
+                <select name="cargo">
+                    <option value="adm">Adm</option>
+                    <option value="rh">Rh</option>
+                    <option value="npc">Npc</option>
+                    <option value="outro">Outro</option>
                   </select>
             </label>    
             </fieldset>
@@ -34,36 +35,38 @@
                 <legend>cep</legend>
             
             <label for="rua">
-                <input type="text" name="pao5" placeholder="Rua">
+                <input type="text" name="rua" placeholder="Rua">
             </label>
     
             <label for="bairro">
-                <input type="text" name="pao6" placeholder="Bairro">
+                <input type="text" name="bairro" placeholder="Bairro">
             </label>
 
             <label for="cidade">
-                <input type="text" name="pao8" placeholder="cidade">
-            </label>      
-            <label for="estado">
-                <select name="select">
+                <input type="text" name="cidade" placeholder="cidade">
+            </label>
+            <br><br>      
+            <label for="estado" name="estado">
+                <select name="estado">
                     <option value="sp">SP</option>
                     <option value="rj">RJ</option>
                     <option value="bh">BH</option>
                     <option value="ac">AC</option>
                 </select>
             </label>
-
+                <br><br>
             <label for="cep">
-                <input type="text" name="pao7" placeholder="CEP:000000-000">
+                <input type="text" name="cep" placeholder="CEP:000000-000">
             </label>
             </fieldset>
             
         </div> 
         </div> 
-        <div class="cafe">
+        <div class="castro" name="cadastro">
             <input id="botas" type="submit" value="cadastro">
         </div>
         
     </form>
 </body>
 </html>
+
